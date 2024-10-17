@@ -14,7 +14,17 @@ body {
 
 .action {
   background-color: #3882f6;
+  font-size: 18px;
+  color:
 }
+
+#signup-button {
+  border: none;
+  border-radius: 5px; 
+  padding: 5px 30px;
+  color: #f9faf8;
+}
+
 .secondary {
   color: #e5e7eb;
   font-size: 18px;
@@ -53,7 +63,6 @@ body {
   #main {
     font-size: 48px;
     font-weight: 900;
-
   }
 
 }
