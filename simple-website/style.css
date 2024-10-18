@@ -7,6 +7,12 @@ body {
   margin: 0;
 }
 
+.dark {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
 .section {
   flex-shrink: 0;
   height: 70vh;
@@ -15,18 +21,19 @@ body {
 .action {
   background-color: #3882f6;
   font-size: 18px;
-  color:
-}
-
-#signup-button {
-  border: none;
-  border-radius: 5px; 
-  padding: 5px 30px;
   color: #f9faf8;
 }
 
+.signup-button {
+  border: none;
+  border-radius: 5px; 
+  padding: 5px 30px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 18px;
+}
+
 .secondary {
-  //text-wrap: wrap;
   color: #e5e7eb;
   font-size: 18px;
   weight: normal;
@@ -146,4 +153,37 @@ body {
   #citation {
     text-align: right;
   }
+}
+
+#cta {
+  .container {
+    margin: 80px 100px;
+    padding: 40px 80px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+
+    #action-prompt {
+      #cta-header {
+        font-size: 24px;
+      }
+
+      #cta-explanation {
+        font-weight: 300;
+      }
+    }
+
+    button {
+      border: solid;
+      border-width: 2px;
+      border-radius: 10px;
+    }
+  }
+}
+
+#footer {
+  height: auto;
+  text-align: center;
+  padding: 24px;
 }
