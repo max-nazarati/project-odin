@@ -9,7 +9,7 @@ body {
 
 .section {
   flex-shrink: 0;
-  height: 100vh;
+  height: 70vh;
 }
 
 .action {
@@ -36,7 +36,7 @@ body {
 
 #hero {
   background-color: #1f2937;
-  padding: 30px 90px;
+  padding: 30px 200px;
   color: #f9faf8;
 
   #header {
@@ -65,7 +65,7 @@ body {
     padding: 80px 0;
     display: flex;
     justify-content: space-between;
-    gap: 250px;
+    gap: 100px;
 
     #main {
       font-size: 48px;
@@ -76,7 +76,7 @@ body {
     #hero-image {
       display: flex;
       height: 400px;
-      width: 50%;
+      width: 600px;
       background-color: grey;
       flex-shrink: 0;
       justify-content: center;
@@ -85,4 +85,65 @@ body {
 
   }
 
+}
+
+#info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  #header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+  }
+
+  #info-image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+
+    .info-image {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      max-width: 150px;
+
+      .image {
+        flex-shring: 0;
+        width: 146px;
+        height: 146px;
+        border: solid;
+        border-width: 4px;
+        border-color: #3882f6;
+        border-radius: 15px;
+      }
+
+      .image-subtext {
+        text-align: center;
+        color: #1f2937;
+      }
+    }
+  }
+}
+
+#quote-container {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 280px;
+
+  #quote {
+    text-wrap: wrap;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color: #1f2937;
+  }
+
+  #citation {
+    text-align: right;
+  }
 }
