@@ -42,15 +42,17 @@ body {
 }
 
 #hero {
-  background-color: #1f2937;
   padding: 30px 200px;
-  color: #f9faf8;
 
   #header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 24px;
+
+    #logo {
+      color: #f9faf8;
+    }
 
     #header-links {
       display: flex;
@@ -78,6 +80,7 @@ body {
       font-size: 48px;
       font-weight: 900;
       text-wrap: wrap;
+      color: #f9faf8;
     }
 
     #hero-image {
@@ -156,8 +159,9 @@ body {
 }
 
 #cta {
+  height: auto;
   .container {
-    margin: 80px 100px;
+    margin: 120px 280px;
     padding: 40px 80px;
     border: none;
     border-radius: 10px;
