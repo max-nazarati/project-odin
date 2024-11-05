@@ -1,0 +1,15 @@
+#sketch-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 960px;
+
+  .sketch-row {
+    justify-content: center;
+
+    .sketch-pixel {
+      margin: 2px;
+      background-color: lightgrey;
+    }
+  }
+}
