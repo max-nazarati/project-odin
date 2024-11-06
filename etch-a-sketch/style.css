@@ -1,15 +1,28 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 20px;
+}
+
+#reset-button {
+  width: 100px;
+  text-align: center;
+  font-size: 24px;
+  background-color: orange;
+}
 #sketch-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 960px;
 
   .sketch-row {
     justify-content: center;
 
     .sketch-pixel {
-      margin: 2px;
-      background-color: lightgrey;
+      margin: 0px;
+      background-color: black;
     }
   }
 }
